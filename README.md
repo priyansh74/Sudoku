@@ -11,6 +11,9 @@ ___
 ## Description
 The website is hosted on GitHub Pages: https://priyansh74.github.io/Sudoku.github.io/
 
+## Visuals of the Web Game
+![Alt text](https://gifyu.com/image/SwBqD)
+
 ### Note
 This is now live, and ready to play. The main format of the game has no bugs, but there can be some new bugs found later during the course of the game, I would love to get communicated with that so, that i can fix it asap.
 
