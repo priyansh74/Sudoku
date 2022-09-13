@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Play Sudoku by Priyansh</title>
+    <link rel = "icon" href="./images/sudoku-icon.svg" type = "image/x-icon">
+
+    <script src="https://kit.fontawesome.com/316a5a7a44.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="./css/style.css" rel="stylesheet">
+
+  </head>
+  <body class="background align-content-center text-center">
+
+    <div class="h1 text-light py-3">Play Sudoku by Priyansh</div>
+
+    <div class="container">
+
+      <hr>
+
+      <br>
+
+      <div class="row">
+        <div class="col">
+
+          <!--  yahsee-->
+          <div id="table">
+
+               <!--row 1 -->
+               <div class="innerTable">
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a00"> 0</td>
+                      <td class="a01"> 0</td>
+                      <td class="a02"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a10"> 0</td>
+                      <td class="a11"> 0</td>
+                      <td class="a12"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a20"> 0</td>
+                      <td class="a21"> 0</td>
+                      <td class="a22"> 0</td>
+                    </tr>
+                  </table>
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a03"> 0</td>
+                      <td class="a04"> 0</td>
+                      <td class="a05"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a13"> 0</td>
+                      <td class="a14"> 0</td>
+                      <td class="a15"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a23"> 0</td>
+                      <td class="a24"> 0</td>
+                      <td class="a25"> 0</td>
+                    </tr>
+                  </table>
+                  <table class="subTable">
+                    <tr>
+                      <td class="a06"> 0</td>
+                      <td class="a07"> 0</td>
+                      <td class="a08"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a16"> 0</td>
+                      <td class="a17"> 0</td>
+                      <td class="a18"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a26"> 0</td>
+                      <td class="a27"> 0</td>
+                      <td class="a28"> 0</td>
+                    </tr>
+                  </table>
+
+
+               </div>
+               <!-- row 2 -->
+               <div class="innerTable">
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a30"> 0</td>
+                      <td class="a31"> 0</td>
+                      <td class="a32"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a40"> 0</td>
+                      <td class="a41"> 0</td>
+                      <td class="a42"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a50"> 0</td>
+                      <td class="a51"> 0</td>
+                      <td class="a52"> 0</td>
+                    </tr>
+                  </table>
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a33"> 0</td>
+                      <td class="a34"> 0</td>
+                      <td class="a35"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a43"> 0</td>
+                      <td class="a44"> 0</td>
+                      <td class="a45"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a53"> 0</td>
+                      <td class="a54"> 0</td>
+                      <td class="a55"> 0</td>
+                    </tr>
+                  </table>
+                  <table class="subTable">
+                    <tr>
+                      <td class="a36"> 0</td>
+                      <td class="a37"> 0</td>
+                      <td class="a38"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a46"> 0</td>
+                      <td class="a47"> 0</td>
+                      <td class="a48"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a56"> 0</td>
+                      <td class="a57"> 0</td>
+                      <td class="a58"> 0</td>
+                    </tr>
+                  </table>
+
+
+               </div>
+               <!--row 3 -->
+               <div class="innerTable">
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a60"> 0</td>
+                      <td class="a61"> 0</td>
+                      <td class="a62"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a70"> 0</td>
+                      <td class="a71"> 0</td>
+                      <td class="a72"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a80"> 0</td>
+                      <td class="a81"> 0</td>
+                      <td class="a82"> 0</td>
+                    </tr>
+                  </table>
+
+                  <table class="subTable">
+                    <tr>
+                      <td class="a63"> 0</td>
+                      <td class="a64"> 0</td>
+                      <td class="a65"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a73"> 0</td>
+                      <td class="a74"> 0</td>
+                      <td class="a75"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a83"> 0</td>
+                      <td class="a84"> 0</td>
+                      <td class="a85"> 0</td>
+                    </tr>
+                  </table>
+                  <table class="subTable">
+                    <tr>
+                      <td class="a66"> 0</td>
+                      <td class="a67"> 0</td>
+                      <td class="a68"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a76"> 0</td>
+                      <td class="a77"> 0</td>
+                      <td class="a78"> 0</td>
+                    </tr>
+                    <tr>
+                      <td class="a86"> 0</td>
+                      <td class="a87"> 0</td>
+                      <td class="a88"> 0</td>
+                    </tr>
+                  </table>
+
+
+               </div>
+
+          </div>
+         <!--  yahatak-->
+        </div>
+
+        <div class="col">
+          <div class="row">
+            <div class="text-center">
+
+              <button id="reset-table" type="button" onclick="setDefault()" class="btn btn-warning"><i class="fa fa-fast-backward pe-1" aria-hidden="true"></i>Reset Table</button>
+
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+            <div class="text-center">
+              <button id="easy" type="button" onclick="setLevelEasy()" class="btn btn-success">Easy</button>
+              <button id="intermediate" type="button" onclick="setLevelIntermediate()" class="btn btn-warning">Intermediate</button>
+              <button id="difficult" type="button" onclick="setLevelDifficult()" class="btn btn-danger">Difficult</button>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+            <div class="text-center">
+              <button id="check" onclick="checkSolution()" type="button" class="btn btn-success"><i class="fa fa-check-square pe-1" aria-hidden="true"></i>Check</button>
+              <button id="solve" onclick="solveSolution()" type="button" class="btn btn-secondary"><i class="fa fa-magic pe-1" aria-hidden="true"></i>Solve</button>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="row">
+            <div id="answer" class="text-center">
+                  
+            </div>  <!--checkanswer ka promt idhar de sakta hai tu; add element krke; -->
+          </div>
+
+          <br>
+
+          <div class="row text-start text-light">
+            <div class="h1 text-light">Instructions</div>
+            <hr>
+            <ul class="text-light">
+              <li>Click on any cell to highlight it</li>
+              <ul>
+                <li>Input any number from 1 to 9</li>
+                <li>Each of the digits 1-9 must occur exactly once in each row, each column and each of the 9 3x3 sub-boxes of the grid. </li>
+                <li>There can be more than one possible solution to a soduku</li>
+              </ul>
+            </ul>
+          </div>
+
+          <br>
+
+          <dl class="row text-start text-light">
+            <dt class="col-sm-4">Button</dt>
+            <dd class="col-sm-8">Action</dd>
+
+            <hr>
+
+            <dt class="col-sm-4">Reset Table</dt>
+            <dd class="col-sm-8">Resets the sudoku table to start again</dd>
+
+
+            <dt class="col-sm-4">Check</dt>
+            <dd class="col-sm-8">Checks if sudoku puzzle is solved</dd>
+
+            <dt class="col-sm-4">Solve</dt>
+            <dd class="col-sm-8">Solves the sudoku puzzle</dd>
+
+            <dt class="col-sm-4">Easy, Intermediate, Difficult</dt>
+            <dd class="col-sm-8">An example of a sudoku puzzle for each difficulty</dd>
+          </dl>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+
+    <script src="js/main.js">
+
+    </script>
+  </body>
+</html>
