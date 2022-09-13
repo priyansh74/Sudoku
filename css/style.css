@@ -1,0 +1,72 @@
+.background {
+    background-color: #323232;
+}
+
+body {
+    overflow: visible;
+}
+
+#table{
+  border: 2.1px solid black;
+  margin: 0px;
+  background-color: #FCF8E8;
+  width: 72.60vh;
+  height: 72.2vh;
+  text-align: center;
+  padding: 0;
+
+}
+
+.innerTable{
+  border-bottom: 2px solid black;
+ height: 24vh;
+
+}
+
+.subTable{
+  border-right:  2.5px solid black;
+  height: 24vh;
+  width: 24vh;
+
+}
+.subTable tr{
+  border : 1px solid black;
+}
+.subTable tr td{
+
+  border-right: 0.5px solid black;
+
+  color:black;
+  font-size: 18px;
+  text-align: center;
+}
+table{
+  float: left;
+}
+.addedInput{
+  margin: 0;
+  border:0;
+  width:52px;
+  height: 50px;
+  padding: 8%;
+  background-color:  #FCF8E8;
+  color:black;
+  text-align: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+#answer{
+  color:white;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
